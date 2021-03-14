@@ -16,7 +16,7 @@
         "forms",
         "dogStore",
         "Elements",
-        "Button1.json"
+        "addWishlist.json"
       ]
     },
     {
@@ -43,7 +43,7 @@
         "forms",
         "dogStore",
         "Elements",
-        "Button2.json"
+        "showProd.json"
       ]
     }
   ],

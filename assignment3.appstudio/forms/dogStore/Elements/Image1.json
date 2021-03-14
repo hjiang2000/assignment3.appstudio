@@ -17,7 +17,7 @@
   "height": "auto",
   "hidden": "",
   "id": "Image1",
-  "left": 74,
+  "left": 47,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -46,8 +46,8 @@
   "right": "auto",
   "script": "",
   "shape": "",
-  "src": "nsb/images/192.png",
+  "src": "/Users/hjiang/Desktop/assignment3.appstudio/dogA3.jpeg",
   "style": "",
-  "top": 33,
-  "width": "auto"
+  "top": 0,
+  "width": 234
 }
