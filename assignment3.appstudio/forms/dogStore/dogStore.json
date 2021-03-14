@@ -27,6 +27,24 @@
         "Elements",
         "Input1.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "dogStore",
+        "Elements",
+        "Image1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "dogStore",
+        "Elements",
+        "Button2.json"
+      ]
     }
   ],
   "class": "",
