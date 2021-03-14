@@ -1,12 +1,22 @@
-let cities=[]
-let finished=false
-
-while (finished=false)
-{newCities = prompt("Enter your city. If you have no more cities please put 'stop'").split(",")
-cities.push(newCities)
+/*
+let cities = []
+let finishedYet = false 
+let moreCities = ""
+while (finishedYet==false) {
+  moreCities=prompt("Would you like to add a new city?")
+  if (moreCities=="no")
+  {finishedYet=true}
+  else {
+    newCity = prompt("Add a new city please!")
+  cities.push(newCity) 
+  }
 }
 
+lowCities= cities.ToLowerCase()
+
+let i=0
 while (i<cities.length) {
-  console.log(cities[i].ToLowerCase())
-i++
+  console.log(lowCities[i])
+  i++
 }
+*/
