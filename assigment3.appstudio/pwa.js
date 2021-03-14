@@ -1,8 +1,13 @@
 // version and contentToCache are supplied by IDEController.py during deploy
-const cacheName = 'Project1-2021-03-14 16:57:17.195905'; // unique value, generated each deploy
+const cacheName = '-2021-03-14 17:39:16.474324'; // unique value, generated each deploy
 const contentToCache = [
   'index.html',
   'code.js',
+  'toolbox/bs4/dist/bsFunctions.min.js',
+  'toolbox/bs4/dist/css/bootstrap.min.css',
+  'toolbox/bs4/dist/js/bootstrap.bundle.min.js',
+  'toolbox/bs4/dist/open-iconic/css/open-iconic-bootstrap.min.css',
+  'toolbox/bs4/dist/open-iconic/fonts/open-iconic.woff',
   'toolbox/as/dist/asStyle.css',
   'nsb/images/ajax-loader.gif',
   'nsb/images/72.png',
@@ -27,7 +32,7 @@ self.addEventListener('activate', ((e) => {
       if (trace) console.log('keylist', keyList);
       return Promise.all(keyList.map((key) => {
         if (trace) console.log('  Key:', key);
-        if (cacheName.indexOf(key) === -1  && key.substr(0, 'Project1'.length) === 'Project1') {
+        if (cacheName.indexOf(key) === -1  && key.substr(0, ''.length) === '') {
           if (trace) console.log('  Delete:', key);
           return caches.delete(key);
         }

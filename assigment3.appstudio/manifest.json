@@ -1,7 +1,7 @@
 {
-  "short_name": "Project1",
-  "name": "Project1",
-  "description": "Project1",
+  "short_name": "",
+  "name": "",
+  "description": "",
   "display": "standalone",
   "start_url": "index.html",
   "background_color": "black",
